@@ -1,0 +1,16 @@
+{
+
+    "manifest_version": 2,
+    "name": "ExtensionName",
+    "version": "1.0",
+
+    "description": "Extension description",
+
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["ExtensionName.js"]
+      }
+    ]
+
+}
