@@ -19,7 +19,7 @@ if __name__ == "__main__":
         print()
 
         ext_name = input("Enter a name for your extension: ")
-        ext_dir = PATH + os.sep + ext_name
+        ext_dir = PATH + os.sep + ".." + os.sep + "Extensions" + os.sep + ext_name
 
         os.mkdir(ext_dir)
         print(ext_dir + " created")
